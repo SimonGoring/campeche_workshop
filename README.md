@@ -706,6 +706,7 @@ You can also add relative navigation links, similar to the built in reveal.js co
 
 
 ### Fragments
+
 Fragments are used to highlight individual elements on a slide. Every element with the class ```fragment``` will be stepped through before moving on to the next slide. Here's an example: http://revealjs.com/#/fragments
 
 The default fragment style is to start out invisible and fade in. This style can be changed by appending a different class to the fragment:
@@ -903,7 +904,9 @@ To enable the PDF print capability in your presentation, the special print style
 ```
 
 ### Instructions
+
 1. Open your presentation with `print-pdf` included in the query string i.e. http://localhost:8000/?print-pdf. You can test this with [revealjs.com?print-pdf](http://revealjs.com?print-pdf).
+
   * If you want to include [speaker notes](#speaker-notes) in your export, you can append `showNotes=true` to the query string: http://localhost:8000/?print-pdf&showNotes=true
 1. Open the in-browser print dialog (CTRL/CMD+P).
 1. Change the **Destination** setting to **Save as PDF**.
